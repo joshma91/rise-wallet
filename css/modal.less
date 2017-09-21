@@ -11,6 +11,15 @@
       margin-left: 250px;
     }
   }
+ 
+    @media (max-width: 767px) {
+    >.container{
+      height: 100%;
+      width: 100%;
+      padding: 0px !important;
+    }
+  }
+  
   .material-modal-content {
     background: @grey;
     border-radius: @border-radius;
@@ -499,6 +508,9 @@
   background-color: transparent;
   .card-action {
     padding: 0;
+  }
+  @media(max-width: 767px){
+    margin:0 !important;
   }
   .card-content, .card-reveal {
     overflow: hidden;
